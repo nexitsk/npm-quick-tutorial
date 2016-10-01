@@ -38,3 +38,22 @@ Official getting started guide: https://docs.npmjs.com/getting-started/what-is-n
 `npm publish` publishes application into npmjs server
 
 More commands in official documentation https://docs.npmjs.com/
+
+## How to pass parameters inside scripts function
+
+By passing params with `-`/`--` params are available only in declaration of command in package.json.
+
+Example package.json:
+```
+...
+"scripts": {
+  "somescript": "npm run otherscript"
+}
+...
+```
+
+If we want to pass parameters into `otherscript` through `somescript` we would need to use command `--` before actual parameter:
+
+* `npm run somescript -- --parameter=value`
+
+With "double --" parameters are passed directly into next function inside package.json
