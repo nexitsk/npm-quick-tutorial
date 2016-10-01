@@ -56,4 +56,4 @@ If we want to pass parameters into `otherscript` through `somescript` we would n
 
 * `npm run somescript -- --parameter=value`
 
-With "double --" parameters are passed directly into next function inside package.json
+With "double --" parameters are passed directly into nested function.
