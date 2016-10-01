@@ -10,6 +10,8 @@ Npm official homepage: https://www.npmjs.com/
 
 `npm -v` gets your version of npm
 
+`npm init` created basic package.json - interactive process
+
 `npm install` (npm install / npm i) install dependencies from package.json / npm-shrinkwrap.json (if locked)
 
 `npm update` (npm update --save / --save-dev) updated dependencies
