@@ -6,6 +6,8 @@ Npm official homepage: https://www.npmjs.com/
 
 "npm is the package manager for JavaScript. Find, share, and reuse packages of code from hundreds of thousands of developers — and assemble them in powerful new ways." [npmjs.com]
 
+Official getting started guide: https://docs.npmjs.com/getting-started/what-is-npm
+
 ## Most useful commands
 
 `npm -v` gets your version of npm
