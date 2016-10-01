@@ -16,7 +16,12 @@ Official getting started guide: https://docs.npmjs.com/getting-started/what-is-n
 
 `npm install` (npm install / npm i) install dependencies from package.json / npm-shrinkwrap.json (if locked)
 
-`npm update` (npm update --save / --save-dev) updated dependencies
+`npm install PACKAGE_NAME` installs new package (or change version with npm install somepackage@1.1.0)
+* `-g` install globally
+* `--save` saves package into dependenvies (package.json)
+* `--save-dev`  saves package into development dependencies (package.json)
+
+`npm update` (npm update --save / --save-dev) updates dependencies
 
 `npm prune` removes unnecessary dependencies (not licted in packages.json)
 
