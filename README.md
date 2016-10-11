@@ -8,6 +8,12 @@ Npm official homepage: https://www.npmjs.com/
 
 Official getting started guide: https://docs.npmjs.com/getting-started/what-is-npm
 
+## 2016-10 New package manager (alternative to npm)
+
+There is new package manager called `yarn`: https://yarnpkg.com/
+
+It's compatible with npm but it comes with number of interesting features like - better performance, offline packages caching, dependencies lock (similar to shrinkwrap), etc. I would recomend to use this tool.
+
 ## Most useful commands
 
 `npm -v` gets your version of npm
